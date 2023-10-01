@@ -29,7 +29,7 @@ p {
 }
 
 section#left ul {
-    list-style-image: url(../../src/images/icon-list.svg);
+    list-style-image: url(./src/images/icon-list.svg);
 }
 
 section#left ul li {
