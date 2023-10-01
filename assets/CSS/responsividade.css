@@ -1,0 +1,221 @@
+@media screen and (min-width: 376px) and (max-width: 390px) {
+    section#right img{
+        width: 100%;
+    }
+
+    section#left p, li {
+        font-size: 1.1rem;
+    }
+
+    section#left ul li {
+        margin: 0 2rem 0.9rem;
+        padding: 0 .5rem;
+    }
+
+    label {
+        font-size: 1.1rem;
+        margin-bottom: .8rem;
+    }
+
+    input[type=email] {
+        font-size: 1.1rem;
+        border: 1px solid;
+    }
+    
+    #thankyou img {
+        width: 70px;
+    }
+
+    #thankyou h1 {
+        font-size: 2.7rem;
+    }
+
+    #thankyou p {
+        font-size: 1.1rem;
+    }
+
+    #thankyou input[type=submit] {
+        position: relative;
+        top: 100%;
+        transform: translateY(10rem);
+        border: 1px solid red;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 414px) {
+    section#right img{
+        width: 100%;
+    }
+
+    section#left p, li {
+        font-size: 1.1rem;
+    }
+
+    section#left ul li {
+        margin: 0 2rem 0.9rem;
+        padding: 0 .5rem;
+    }
+
+    label {
+        font-size: 1.1rem;
+        margin-bottom: .8rem;
+    }
+
+    input[type=email] {
+        font-size: 1.1rem;
+        border: 1px solid;
+    }
+    
+    #thankyou img {
+        width: 70px;
+    }
+
+    #thankyou h1 {
+        font-size: 2.7rem;
+    }
+
+    #thankyou p {
+        font-size: 1.1rem;
+    }
+
+    #thankyou input[type=submit] {
+        position: relative;
+        top: 100%;
+        transform: translateY(11rem);
+        border: 1px solid red;
+    }
+}
+
+@media screen and (min-width: 415px) and (max-width: 991px) {
+    body#secondPage {
+        height: 100vh;
+        background: hsl(234, 29%, 20%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section#right img{
+        width: 100%;
+        position: relative;
+    }
+
+    section#left h1 {
+        font-size: 3.5rem;
+    }
+
+    section#left p, li {
+        font-size: 1.5rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+        margin-bottom: .8rem;
+    }
+
+    small {
+        font-size: 1.5rem;
+    }
+
+    input[type=email] {
+        height: 56px;
+        font-size: 1.5rem;
+        border: 1px solid;
+        margin-bottom: 2rem;
+    }
+    
+    input[type=submit] {
+        font-size: 1.5rem;
+    }
+
+    /********/
+    #thankyou {
+        margin: 0;
+        width: 60vw;
+        border-radius: 2rem;
+        padding: 2.5rem 4rem;
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 5px 10px 10px hsl(0, 0%, 0%);
+    }
+    
+    #thankyou h1 {
+        font-size: 3.5rem;
+    }
+
+    #thankyou p {
+        margin-bottom: 2rem;
+    }
+
+    #thankyou input[type=submit] {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1444px) {
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(234, 29%, 20%);
+    }
+
+    main {
+        grid-template-columns: 500px;
+        border-radius: 1rem;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    section#left {
+        grid-column-start: 1;
+        grid-row: auto;
+        padding: 5rem 1rem;
+    }
+    
+    section#left p, li {
+        font-size: 1.1rem;
+    }
+
+    section#left input[type=email]{
+        margin-bottom: 1.5rem;
+    }
+
+    section#right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-row: auto;
+        grid-column-start: 2;
+    }
+
+    #Bg-mobile {
+        display: none;
+    }
+    
+    section#right #Bg-desktop {
+        width: 90%;
+        display: flex;
+    }
+
+    #thankyou {
+        margin: 0;
+        width: 40vw;
+        border-radius: 2rem;
+        padding: 2.5rem 4rem;
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 5px 10px 10px hsl(0, 0%, 0%);
+    }
+    
+    #thankyou h1 {
+        font-size: 4.5rem;
+    }
+
+    #thankyou p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    #thankyou input[type=submit] {
+        font-size: 1rem;
+    }
+}

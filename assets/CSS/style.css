@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+/* Seção de Texto */
+section#left {
+    grid-row-start: 2;
+    margin: 0 1.2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: hsl(234, 29%, 20%);
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+section#left ul {
+    list-style-image: url(../../src/images/icon-list.svg);
+}
+
+section#left ul li {
+    margin: 0 2rem 0.5rem;
+    padding: 0 .5rem;
+}
+
+section#left li:last-child {
+    margin-bottom: 2rem;
+}
+
+#grid_email {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+small {
+    width: 50%;
+    display: none;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(0, 97%, 58%);
+    position: absolute;
+    left: 50%;
+}
+
+label {
+    width: 50%;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    border-width: 1px; 
+    border-color: hsl(231, 7%, 60%);
+    outline-color: hsl(231, 7%, 60%);
+}
+
+input[type=submit] {
+    border: none;
+    color:white;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: hsl(234, 29%, 20%);
+    /*Fazer sombra*/
+}
+
+input[type=submit]:hover {
+    border: none;
+    background: linear-gradient(45deg, hsl(4, 100%, 67%), hsl(17, 100%, 50%));
+    box-shadow: 0px 10px 10px hsla(4, 100%, 67%, 0.452);
+}
+
+/* Seção Imagem */
+section#right {
+    grid-row-start: 1;
+}
+
+#Bg-desktop {
+    display: none;
+}
+
+/* Seção de Agradecimento */
+#thankyou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    margin: 8rem 0 0 0;
+}
+
+#thankyou img {
+    width: 60px;
+}
+
+#thankyou p {
+    margin-bottom: 10rem;
+}
+
+
+/* ### Primary
+
+- Tomato: hsl(4, 100%, 67%)
+
+### Neutral
+
+- Dark Slate Grey: hsl(234, 29%, 20%)
+- Charcoal Grey: hsl(235, 18%, 26%)
+- Grey: hsl(231, 7%, 60%)
+- White: hsl(0, 0%, 100%) */
